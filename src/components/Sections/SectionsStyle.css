@@ -1,0 +1,71 @@
+.sections-title{
+    color: white;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    border-bottom: solid red ;
+    border-width: 1px;
+    max-width: 100px;
+
+}
+.section-container{
+    display: flex;
+    overflow-x: auto;
+    overflow: hidden;
+    align-items: center;
+        
+    
+}
+
+
+.section-img{
+    
+    display: inline-block;
+    position: relative;
+    margin: 7px;
+    cursor: pointer;
+}
+img{
+    display: block;
+    width: 13rem;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 1rem;
+
+}
+
+.icon-right{
+    color: black;
+    width: 2rem;
+    background-color: white;
+    height: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    right: 0;
+    position: absolute;
+    z-index: 10;
+    margin-top: -6.5rem;
+    opacity: 0.2;
+
+
+}
+.icon-right:hover{
+    opacity: 3;
+}
+.icon-left{
+    color: black;
+    width: 2rem;
+    background-color: white;
+    height: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 0%;
+    cursor: pointer;
+    z-index: 10;
+    margin-top: 5rem;    
+    opacity: 0.2;
+
+}
+.icon-left:hover{
+    opacity: 3;
+}
+

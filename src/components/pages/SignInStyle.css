@@ -1,0 +1,96 @@
+.signup-container {
+    height: 100vh;
+    width: 100%;
+  }
+  .signUp-img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    margin-left: -15px;
+    width: calc(100% + 22px);
+  }
+  .signUp-info {
+    height: 600px;  
+    width: 444px;
+    position: absolute;
+    background-color: #000000bf;
+    color: aliceblue;
+    bottom: 10px;
+    margin-left: 33%;
+    box-shadow: 0px 0px 20px black ;
+  }
+  .sign-up-title{
+      margin-left:54px;
+      margin-top: 3rem;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .form{
+      text-align: center;
+  }
+  .email{
+      
+      height: 50px;
+      width: 20rem;
+      background-color: #333333;
+      border: none;
+      outline: none;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+      color: white;
+      padding-left: 8px;
+      font-size: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .pass{
+      font-size: 30px;
+      height: 50px;
+      width: 20rem;
+      background-color: #333333;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      margin-bottom: 2rem;
+      color: white;
+      padding-left: 8px;
+      font-size: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  
+  .signUp-btn{
+      background-color: transparent;
+      width: 20rem;
+      height: 55px;
+      background-color: red;
+      outline: none;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 20px;
+  }
+  .done{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+      color: #b3b3b3;
+  }
+  .remember{
+      padding-left: 45px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .help{
+      padding-right: 45px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  .error{
+    background-color: red;
+    padding: 1rem;
+    margin: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border-radius: 5px;
+    font:bold ;
+  }

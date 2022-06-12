@@ -1,0 +1,65 @@
+.hero-container {
+  color: white;
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+.hero-img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  overflow: hidden;
+  margin-left: -15px;
+  margin-right: -15px;
+  width: calc(100% + 30px);
+}
+
+.info {
+  position: absolute;
+  left: 30px;
+  bottom: 200px;
+  color: white;
+}
+.title {
+  font-size: 39px;
+  font-family: "Macondo", cursive;
+  color: white;
+}
+
+.play-btn {
+  background-color: transparent;
+  width: 6rem;
+  height: 3rem;
+  color: black;
+  outline: none;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.watch-btn {
+  background-color: transparent;
+  width: 6rem;
+  height: 3rem;
+  color: rgb(170, 169, 169);
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  border: solid rgb(153, 149, 149);
+  border-width: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.overview {
+  max-width: 600px;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+}
